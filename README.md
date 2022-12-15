@@ -37,6 +37,7 @@ The second main function is used to compute maps of R2*/RMSE, R2*/RMSE standard 
 
 ## qr_CardiacBrain_SensitiveFreqs
 The third main function is used to find the cardiac noise sensitive k-space region. It computes maps of R2*/RMSE, R2*/RMSE standard deviation across the cardiac phase of the raw data and the modeled cardiac noise only, when removing the fundamental and first harmonic of the Fourier series on a specific region of k-space.
+The code also calculates and saves the cardiac-induced noise sensitive k-space area.
 
 ## qr_CardiacBrain_ShowResults
 The final main function loads all the relevant results and makes images from them for visualization.
