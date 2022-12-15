@@ -14,10 +14,8 @@ The scripts used in CardiacNoiseR2s are the ones used to perform the characteriz
 
 A subset of data used in the original publication for computations of the results can be downloaded on Zenodo DOI:10.5281/zenodo.7428605.
 These data contains 5D k-space data (kx/ky/kz/cardiac phase/TE) from one of the participants. 
-
-"CardiacNoiseR2s.zip" contain the data that need to be used with the code.
-
-"CardiacNoiseR2s_validation.zip" contains the main results outputted by the code, and can be used for validation.
+- "CardiacNoiseR2s.zip" contain the data that need to be used with the code.
+- "CardiacNoiseR2s_validation.zip" contains the main results outputted by the code, and can be used for validation.
 
 # Main functions
 
@@ -25,13 +23,9 @@ qr_NoiseCharacLowRes_Main is the main function that needs to be run by inputting
 It requires the 5D k-space data (Truek.mat), the labels (Labels.mat) as well as header information for SPM (SPMheader.mat).
 
 This function will run the main functions in the following order:
-
 - qr_CardiacNoiseR2s_Analysis
-
 - qr_CardiacNoiseR2s_R2sCharact
-
 - qr_CardiacNoiseR2s_SensitiveFreqs
-
 - qr_CardiacNoiseR2s_ShowResults
 
 ## qr_CardiacNoiseR2s_Analysis
@@ -49,6 +43,6 @@ Final main function that loads all the relevant results and makes images from th
 
 # REQUIREMENTS
 
-The scripts were run under MATLAB 2021a.
-The scripts require SPM12 to function properly (avaliable here: https://www.fil.ion.ucl.ac.uk/spm/software/spm12/).
+- The scripts were run under MATLAB 2021a.
+- The scripts require SPM12 to function properly (available here: https://www.fil.ion.ucl.ac.uk/spm/software/spm12/).
 
