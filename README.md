@@ -24,7 +24,15 @@ These data contains 5D k-space data (kx/ky/kz/cardiac phase/TE) from one of the 
 qr_NoiseCharacLowRes_Main is the main function that needs to be run by inputting the folder where the subject data are located.
 It requires the 5D k-space data (Truek.mat), the labels (Labels.mat) as well as header information for SPM (SPMheader.mat).
 
-This function will run the main functions in the following order: qr_CardiacNoiseR2s_Analysis, qr_CardiacNoiseR2s_R2sCharact, qr_CardiacNoiseR2s_SensitiveFreqs, and qr_CardiacNoiseR2s_ShowResults.
+This function will run the main functions in the following order:
+
+- qr_CardiacNoiseR2s_Analysis
+
+- qr_CardiacNoiseR2s_R2sCharact
+
+- qr_CardiacNoiseR2s_SensitiveFreqs
+
+- qr_CardiacNoiseR2s_ShowResults
 
 ## qr_CardiacNoiseR2s_Analysis
 First main function used to model the cardiac-induced noise in image and k-space with fundamental and first harmonic of the Fourier series.
